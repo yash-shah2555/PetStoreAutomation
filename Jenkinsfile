@@ -2,8 +2,8 @@ pipeline {
     agent any
 
     tools {
-        maven 'MAVEN_HOME'   // configure Maven in Jenkins → Global Tool Configuration
-        jdk 'JAVA_HOME'      // configure JDK in Jenkins → Global Tool Configuration
+        maven 'myMaven'   // configure Maven in Jenkins → Global Tool Configuration
+        jdk 'myJava'      // configure JDK in Jenkins → Global Tool Configuration
     }
 
     stages {
